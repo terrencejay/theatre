@@ -1,0 +1,238 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.email {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 65px;
+    background-color: transparent;
+}
+
+.example1 {
+    background-image: url(itheater-image-background.png);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.concert-container {
+    justify-content: center;
+}
+
+.box {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+
+}
+
+.actors {
+    width: 60%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+h4 {
+    margin: 30px;
+    color: black;
+    background-color: gray;
+    border: 3px solid black;
+    opacity: 0.5;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-info {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+    padding-right: 80px;
+}
+
+.row-two {
+    border-bottom: 3pt dotted black;
+}
+
+.button {
+    background-color: #FFD700;
+    display: inline-block;
+    border: 2px;
+    padding: 15px;
+
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+/* .map {
+    border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+} */
+
+.maping {
+    width: 250px;
+    justify-content: left;
+    padding-top: 50px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    vertical-align: top;
+}
+
+.foothead {
+    font-size: 30px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.tiny {
+    margin: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
